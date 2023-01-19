@@ -1,0 +1,100 @@
+:root{
+    --font-poppins: 'Poppins', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --color-primary: #3F87F5;
+    --color-primary-darker: #132849;
+    --color-primary-tint: #231D4F;
+    --color-soft: #848199;
+    --color-white: #FFFFFF;
+}
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common Class */
+.height-vh-80{
+    height: 85vh !important;
+}
+.own-color-primary-darker{
+    color: var(--color-primary-darker);
+}
+.own-color-primary-tint{
+    color: var(--color-primary-darker);
+}
+.own-color-soft{
+    color: var(--color-soft);
+}
+.own-bg-dark{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 21.92%, rgba(0, 0, 0, 0.418) 160.04%, rgba(0, 0, 0, 0.121) 160.06%), url('../images/wedding-01.jpg') !important;
+}
+.button-primary{
+    background: var(--color-white);
+border-radius: 5px;
+padding: 0.8rem 2rem;
+outline: none;
+border: 0;
+color:  var(--color-primary);
+font-size: 1.2rem;
+font-weight: 700;
+transition: all 0.5s;
+}
+.button-primary:hover{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.button-secondary{
+    background: var(--color-primary);
+/* border-radius: 5px; */
+padding: 0.8rem 2rem;
+outline: none;
+border: 0;
+color: var(--color-white);
+font-size: 1.2rem;
+font-weight: 700;
+transition: all 0.5s;
+}
+.button-secondary:hover{
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    outline: 1px solid var(--color-primary);
+}
+
+/* Navbar */
+.nav-logo{
+    font-size: 1.4rem;
+}
+.navbar-nav .nav-link{
+    cursor: pointer;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active{
+    color: var(--color-primary) !important;
+}
+
+/* Package */
+/* .package-icon{
+    font-size: 2rem;
+    color: var(--color-primary);
+    padding: 0.5rem;
+    border: 0.1rem solid var(--color-primary);
+    margin-right: 1rem;
+    transition: all 1s ease-in-out;
+}
+.package-icon:hover{
+    background: var(--color-soft);
+    color: var(--color-primary-tint);
+} */
+.package-icon{
+    background: rgba(82, 67, 194, 0.103693);
+    /* border-radius: 50%;s */
+    padding: 0.15rem;
+}
