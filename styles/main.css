@@ -98,3 +98,16 @@ transition: all 0.5s;
     /* border-radius: 50%;s */
     padding: 0.15rem;
 }
+
+
+/* Frequently Asked */
+.accordion-button:not(.collapsed){
+    color: black !important;
+    background-color: white !important;
+}
+
+/* Footer */
+.footer{
+    background-color: #0B0D17;
+    color: var(--color-white);
+}
